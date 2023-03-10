@@ -1,0 +1,10 @@
+-- use insurance;
+-- INSERT INTO `accident`(`report_number`, `date`) VALUES (1,1-1-2011);
+INSERT INTO `owns`(`driver_id`, `licence`) VALUES ('abc1','kl40_123');
+INSERT INTO `person`(`driver_id`, `name`, `address`, `gender`) VALUES ('abc1','manu','pbvr','m');
+insert into `vehicle`(`licence`,`model`,`year`) values ('kl40_123','sedan','2020');
+INSERT INTO `participated`(`report_no`, `licence`, `driver_id`, `damage_amount`) VALUES (1,'kl40_123','abc1','12000.50');
+desc person;
+INSERT INTO `owns`(`driver_id`, `licence`) VALUES ('abc1','kl40_123');
+select * from owns;
+insert into `owns` (`driver_id`,`licence`) values ('abc2','kl40_222');
